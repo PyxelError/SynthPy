@@ -1,19 +1,11 @@
 from tone import Tone
+from note import Note   
 
-Tone.sine(440, duration = .1)
-Tone.sine(430, duration = .1)
-Tone.sine(420, duration = .1)
-Tone.sine(410, duration = .1)
-Tone.sine(400, duration = .1)
-Tone.sine(390, duration = .1)
-Tone.sine(380, duration = .1)
-Tone.sine(370, duration = .1)
-Tone.sine(360, duration = .1)
-Tone.sine(350, duration = .1)
-Tone.sine(340, duration = .1)
-Tone.sine(330, duration = .1)
-Tone.sine(320, duration = .1)
-Tone.sine(310, duration = .1)
-Tone.sine(300, duration = .1)
-Tone.sine(290, duration = .1)
-Tone.sine(280, duration = .1)
+#Tone.sine(440, duration = .1)
+
+Note.Play_chord([Note('C4', 1), Note('A4', 1)])
+Note.Play_chord([Note('C4', 1), Note('G4', 1)])
+Note('C4', 1).play()
+Note.Play_chord([Note('C5', 1), Note('A5', 1)])
+Note.Play_chord([Note('C5', 1), Note('G5', 1)])
+Note('C5', 1).play()
