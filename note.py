@@ -4,7 +4,7 @@ from utilities import NOTE_MAP
 from tone import Tone
 
 class Note:
-    def __init__(self, note_string, duration=1):
+    def __init__(self, note_string, duration = 1):
         note = note_string[0].upper()
         self.note_string = note + note_string[1:]
         self.duration = duration
